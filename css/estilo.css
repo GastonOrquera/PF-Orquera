@@ -1,0 +1,766 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body{
+    background-color: rgb(180, 180, 180);
+    
+}
+
+                                    /* INICIO */
+
+.header-skate{
+    background-color: black;
+    height: 180px;
+    display: flex;
+}
+
+.logon{
+    height: 140px;
+    width: 120px;
+    /* background-color: blueviolet; */
+    margin-left: 60px;
+    margin-top: 22px;
+    
+}
+
+.nav-bar{
+    width: 920px;
+    height: 100%;
+    /* background-color: rgb(11, 183, 57); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 112px;
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    /* background-color: yellow; */
+    
+}
+
+.nav-bar ul li a{
+    display: block;
+    /* background-color: rgb(20, 11, 102); */
+    padding: 20px 46px;
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-family: 'Anton', sans-serif;
+}
+
+.nav-bar ul li a:hover{
+    /* background-color:rgb(24, 24, 24); */
+    transition: 400ms;
+    transform: scale(1.1);
+    color: rgb(212, 212, 212);
+    /* border-radius: 20px; */
+}
+
+.hr-header{
+    box-shadow: 0px 0px 8px 0px rgb(255, 255, 255);
+}
+
+                                    /* TITULO NIKESB MAIN */
+
+.h1-cs{
+    display: flex;
+    justify-content: center;
+    font-size: 62px;
+    padding: 16px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    /* background-color: rgb(118, 142, 71); */
+    /* background-color: rgb(118, 142, 71); */
+}
+
+.h2-index{
+    display: flex;
+    justify-content: center;
+    align-items: flex-;
+    font-size: 46px;
+    padding: 4px;
+    
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    /* background-color: yellowgreen; */
+    
+}
+
+.hr-inicio{
+    /* color: rgb(0, 0, 0); */
+    margin-top: 22px;
+    box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+                                    /* ZAPATILLAS NIKESB */
+
+.nikesb-inicio{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    padding: 66px 26px;
+}
+
+img{
+    height: 260px;
+    width: 260px;
+}
+
+.hover-img:hover{
+    border-radius: 6px;
+    transition: 400ms;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 0px rgb(17, 16, 41);
+}
+
+.section-botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: tomato; */
+}
+
+.section-botones button{
+    height: 36px;
+    width: 112px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 6px;
+    background-color: rgb(210, 210, 210);
+}
+
+.section-botones button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    padding: 6px;
+    /* background-color: yellowgreen; */
+}
+
+.section-botones button:hover{
+    background-color: rgb(10, 10, 10);
+    border-radius: 8px;
+    transition: 600ms;
+    transform: scale(1.1);
+    height: 32px;
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.section-botones button a:hover{
+    color: rgb(255, 255, 255);
+    transition: 200ms;
+}
+
+.ver-mas{
+    /* background-color: yellow; */
+    display: flex;
+    /* height: 100px; */
+    justify-content: center;
+    height: 200px;
+}
+
+.a-vm{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(40, 41, 48);
+    display: flex;
+    /* height: 100px; */
+    justify-content: center;
+    align-self: center;
+}
+
+.h3-vm{
+    /* background-color: brown; */
+    /* height: 100px; */
+    /* display: flex;
+    justify-content: center;
+    align-self: center; */
+    /* margin-top: 12px;
+    padding: 40px; */
+    font-size: 32px;
+} 
+
+.a-vm:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+.hr-vm{
+    /* color: rgb(0, 0, 0); */
+    background-color: yellow;
+    box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-top: 42px;
+}
+
+                                        /* FOOTER */
+
+.footer-inicio{
+    background-color: black;
+    height: 180px;
+    /* margin-top: 20px; */
+    display: flex;
+    box-shadow: 0px 0px 40px 0px rgb(212, 212, 212);
+}
+
+.derechos-footer{
+    /* background-color: rgb(22, 0, 189); */
+    color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    font-family: 'Anton', sans-serif;
+}
+
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-left: 60px;
+    /* background-color: yellowgreen; */
+    /* cursor: pointer; */
+}
+
+.img-insta{
+    height: 32px;
+    width: 32px;
+    /* align-self: center; */
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.h3-insta{
+    color: white;
+    /* background-color: yellow; */
+}
+
+.img-face{
+    height: 32px;
+    width: 32px;
+}
+
+.h3-face{
+    color: white;
+}
+
+.img-wsp{
+    height: 32px;
+    width: 32px;
+}
+
+.h3-wsp{
+    color: white;
+}
+
+.logo-footer{
+    /* background-color: blue; */
+    
+    align-self: center;
+    /* margin-top: 40px; */
+    margin-left: 146px;
+    /* align-items: center; */
+    height: 78px;
+    width: 156px;
+    cursor: pointer;
+}
+
+.h2-tienda{
+    font-family: 'Anton', sans-serif;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    letter-spacing: 2px;
+}
+
+.tiendas-vm{
+    display: inline-flex;
+    gap: 20px;
+    align-items: baseline;
+    padding: 20px;
+    /* background-color: rgb(97, 97, 55); */
+}
+
+.ubi-1{
+    width: 30px;
+    height: 38px;
+    margin-left: 60px;
+}
+
+.tienda-h3{
+    font-size: 30px;
+}
+
+.horarios-tienda{
+    display: flex;
+}
+
+.li-tienda{
+    /* background-color: rgb(50, 50, 116); */
+    font-size: 26px;
+    margin-left: 112px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.li-tienda2{
+    /* background-color: rgb(38, 117, 141); */
+    font-size: 24px;
+    margin-left: 260px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tiendas-vm-2{
+    display: inline-flex;
+    gap: 20px;
+    align-items: baseline;
+    padding: 20px;
+    /* background-color: rgb(62, 146, 128); */
+    margin-left: 280px;
+}
+
+.ubi-2{
+    width: 30px;
+    height: 38px;
+    margin-left: 60px;
+}
+
+.img-stores{
+    display: flex;
+    /* background-color: rgb(25, 108, 108); */
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.store-img1{
+    height: 420px;
+    width: 420px;
+    box-shadow: 0px 0px 8px 0px black;
+    margin-right: 180px;
+}
+
+.store-img2{
+    height: 420px;
+    width: 420px;
+    box-shadow: 0px 0px 8px 0px black;
+    margin-left: 60px;
+}
+
+.tienda-foo{
+    margin-top: 26px;
+}
+                                    /* MAIN SNKR */
+
+.h2-snkr{
+    font-family: 'Anton', sans-serif;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nike1-4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* background-color: steelblue; */
+}
+
+.nike{
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.nombre1-4{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+
+.h3-snkrs{
+    font-size: 26px;
+}
+
+.precio1-4{
+    /* background-color: rgb(104, 63, 164); */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+}
+
+.p-snkrs{
+    font-size: 22px;
+    margin-right: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.p-snkrs4{
+    font-size: 22px;
+    margin-right: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.comprar-snkr{
+    /* background-color: rgb(33, 42, 103); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.comprar-snkr button{
+    height: 36px;
+    width: 112px;
+    border: none;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 6px;
+    background-color: rgb(210, 210, 210);
+    margin-right: 10px;
+}
+
+.comprar-snkr button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.comprar-snkr button a{
+    text-decoration: none;      
+    font-size: 18px;
+    padding: 6px;
+    color: black;
+}
+
+.comprar-snkr button a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.nike5-8{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+}
+
+.nombre5-8{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.precio5-8{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.comprar-snkr4-8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.comprar-snkr4-8 button{
+    height: 36px;
+    width: 112px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 6px;
+    background-color: rgb(210, 210, 210);
+    margin-right: 10px;
+}
+
+.comprar-snkr4-8 button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.comprar-snkr4-8 button a{
+    text-decoration: none;  
+    font-size: 18px;
+    padding: 6px;
+    color: black;
+}
+
+.comprar-snkr4-8 button a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.foo-snkr{
+    margin-top: 52px;
+}
+
+                                                        /* SECCION SKATEBOARDING */
+
+.h2-eventos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 46px;
+    margin-top: 12px;
+}
+
+.hr-skateboard{
+    margin-top: 12px;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 6px 0px black;
+    opacity: 42%;
+}
+
+.eventos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 32px;
+    /* align-items: center; */
+}
+
+.evento-1{
+    height: 526px;
+    width: 372px;
+    border-radius: 6px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+.evento-2{
+    height: 526px;
+    width: 372px;
+    border-radius: 6px;
+    margin-top: 56px;
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+.evento-3{
+    height: 526px;
+    width: 372px;
+    border-radius: 6px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+.foo-sktb{
+    margin-top: 80px;
+}
+
+                                    /* SECCION CONTACTO */                      
+
+.contacto-titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 46px;
+    margin-top: 12px;
+}
+
+.hr-contacto{
+    box-shadow: 0px 0px 4px 0px black;
+    margin-top: 10px;
+}
+
+.h3-contacto{
+    display: flex;
+    justify-content: center;
+    font-family: 'anton', sans-serif;
+    font-size: 42px;
+    margin-top: 12px;
+    /* background-color: tomato; */
+}
+
+.div-prueba{
+    display: inline-flex;
+    flex-direction: column;
+    /* background-color: violet; */
+}
+
+.ubi-contact{
+    display: inline-flex;
+    align-items: baseline;
+    /* background-color: blueviolet; */
+    margin-left: 60px;
+    margin-top: 32px;
+    gap: 12px;
+}
+
+.ubi-con{
+    width: 30px;
+    height: 38px;
+}
+
+.telefono-contact{
+    display: inline-flex;
+    align-items: baseline;
+    /* background-color: rgb(189, 32, 4); */
+    margin-left: 60px;
+    margin-top: 32px;
+    gap: 12px;
+}
+
+.telefono-con{
+    width: 30px;
+    height: 38px;
+}
+
+.correo-contact{
+    display: inline-flex;
+    align-items: baseline;
+    /* background-color: springgreen; */
+    margin-left: 60px;
+    margin-top: 32px;
+    gap: 12px;
+}
+
+.correo-con{
+    width: 42px;
+    height: 32px;
+}
+
+/* Formulario */
+
+.prueba2{
+    display: inline-block;
+    /* justify-content: center; */
+    margin-left: 290px;
+    /* background-color: yellowgreen; */
+}
+
+.section-contact{
+    /* margin-top: 20px;
+    background-color: rgb(56, 162, 40);
+    grid-template-columns: 1fr 1fr;
+    padding: 10px; */
+    /* width: 600px;
+    height: 400px; */
+    /* display: grid;
+    gap: 12px; */
+    /* height: 440px; */
+    /* padding: 12px; */
+    /* display: grid; */
+    /* display: inline-block;
+    justify-content: center; */
+    /* margin-left: 680px; */
+    width: 600px;
+    /* background-color: rgb(104, 19, 117); */
+}
+
+.section-contact form{
+    /* display: grid;
+    background-color: rgb(83, 72, 148); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-contact form label{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    /* text-align: center; */
+    font-family: 'Anton', sans-serif;
+}
+
+.label-con1{
+    /* grid-area: label1; */
+    
+    
+}
+
+input{
+    height: 46px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+}
+
+.input-con1{
+    /* grid-area: input1; */
+    
+    
+    /* background-color: steelblue; */
+}
+
+.label-con2{
+    /* grid-area: label2; */
+}
+
+.input-con2{
+    /* grid-area: input2; */
+}
+
+.label-con3{
+    /* grid-area: label3; */
+}
+
+.input-con3{
+    /* grid-area: input3; */
+}
+
+.label-con4{
+    /* grid-area: label4; */
+}
+
+.input-con4{
+    /* grid-area: input4; */
+    height: 80px;
+}
+
+.input-con5{
+    /* grid-area: input5; */
+    margin-top: 22px;
+    width: 200px;
+    height: 38px;
+    align-self: center;
+    border: 2px solid rgb(212, 212, 212);
+}
+
+.input-con5:hover{
+    background-color: rgb(212, 212, 212);;
+    transition: 400ms;
+    color: rgb(42, 42, 42);
+    box-shadow: 0px 0px 2px 0px black;
+    /* border: 1px solid rgba(23, 23, 23,.7); */
+    border: 2px solid rgb(212, 212, 212)
+    /* transform: scale(1.1); */
+}
+
+@media (max-width:767px){
+
+    body{
+        background-color: yellowgreen;
+    }
+
+
+}
+
+
+
+
+
