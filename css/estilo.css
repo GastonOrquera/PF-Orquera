@@ -13,6 +13,8 @@ body{
     
 }
 
+
+
                                     /* INICIO */
 
 .header-skate{
@@ -20,6 +22,9 @@ body{
     height: 180px;
     display: flex;
 }
+/* .header-responsive{
+    display: none;
+} */
 
 .logon{
     height: 140px;
@@ -31,7 +36,7 @@ body{
 }
 
 .nav-bar{
-    width: 920px;
+    /* width: 920px; */
     height: 100%;
     /* background-color: rgb(11, 183, 57); */
     display: flex;
@@ -741,25 +746,181 @@ input{
     border: 2px solid rgb(212, 212, 212);
 }
 
+
 .input-con5:hover{
     background-color: rgb(212, 212, 212);;
     transition: 400ms;
     color: rgb(42, 42, 42);
     box-shadow: 0px 0px 2px 0px black;
     /* border: 1px solid rgba(23, 23, 23,.7); */
-    border: 2px solid rgb(212, 212, 212)
+    /* border: 2px solid rgb(212, 212, 212) */
     /* transform: scale(1.1); */
 }
 
+
+
+
 @media (max-width:767px){
 
-    body{
-        background-color: yellowgreen;
-    }
+.header-skate{
+    display: none;
+}
 
+.desktop{
+    display: none;
+}
+
+.footer-inicio{
+    display: none;
+}
+
+/* RESPONSIVEE */
+
+.header-responsive{
+    background-color: black;
+    height: 340px;
+}
+
+.logo-responsive{
+    /* width: 100%; */
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: tomato; */
+}
+
+
+.logo-responsivee{
+    width: 120px;
+    height: 120px;
+}
+
+
+.nav-responsive{
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-responsive .ul-responsive{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+.nav-responsive .ul-responsive .li-m .a-m{
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
 
 }
 
+.h1-mo{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    font-size: 36px;
+}
+
+.h2-mo{
+    /* background-color: tomato; */
+    font-size: 26px;
+}
+
+.hr-mo{
+    margin: 0;
+    margin-top: 4px;
+}
+
+.nikesb-mobile{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* .nike-mo{
+    height: 200px;
+    width: 200px;
+} */
+
+.botones-mo{
+    /* background-color: turquoise;
+    position: relative; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.mobile-btn{
+    width: 120px;
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+}
+
+.mobile-btn:hover{
+    background: rgb(0, 0, 0);
+    transition: 400ms;
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+.mobile-btn .ancla-mobile{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.mobile-btn .ancla-mobile:hover{
+    color: #fff;
+    transition: 400ms;
+}
+
+/* footer responsive */
+
+.footer-mobile{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    margin: 0;
+}
+
+.redes-mobile{
+    display: grid;
+    padding: 0 80px;
+    /* background-color: yellowgreen; */
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 12px;
+    gap: 32px;
+}
+
+.mo-foo{
+    /* background-color: violet; */
+    margin: 0;
+}
+
+.derechos-mo{
+    /* background-color: violet; */
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+}
 
 
 
