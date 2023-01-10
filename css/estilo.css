@@ -19,56 +19,47 @@ body{
 
 .header-skate{
     background-color: black;
-    height: 180px;
+    /* height: 180px; */
     display: flex;
+    align-items: center;
 }
-/* .header-responsive{
-    display: none;
-} */
 
 .logon{
-    height: 140px;
-    width: 120px;
+    height: 160px;
+    width: 140px;
     /* background-color: blueviolet; */
     margin-left: 60px;
-    margin-top: 22px;
-    
+    /* margin-top: 22px; */
 }
 
 .nav-bar{
-    /* width: 920px; */
-    height: 100%;
     /* background-color: rgb(11, 183, 57); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 112px;
+    margin-left: 28vh;
 }
 
 .nav-bar ul{
+    display: flex;
+    gap: 8vh;
     list-style: none;
 }
 
-.nav-bar ul li{
-    display: inline-block;
-    /* background-color: yellow; */
-    
+.nav-bar ul li:hover{
+    transform: scale(1.1);
+    transition: 400ms;
 }
 
 .nav-bar ul li a{
-    display: block;
     /* background-color: rgb(20, 11, 102); */
-    padding: 20px 46px;
     text-decoration: none;
     color: white;
-    font-size: 26px;
+    font-size: 28px;
     font-family: 'Anton', sans-serif;
 }
 
 .nav-bar ul li a:hover{
     /* background-color:rgb(24, 24, 24); */
-    transition: 400ms;
-    transform: scale(1.1);
+    
+    
     color: rgb(212, 212, 212);
     /* border-radius: 20px; */
 }
@@ -118,6 +109,10 @@ body{
     justify-content: space-around;
     /* background-color: yellow; */
     padding: 66px 26px;
+}
+
+.nikesb-mobile{
+    display: none;
 }
 
 img{
@@ -325,6 +320,11 @@ h3{
     display: flex;
 }
 
+.li-tienda-mobile{
+    display: none;
+}
+
+
 .li-tienda{
     /* background-color: rgb(50, 50, 116); */
     font-size: 26px;
@@ -360,6 +360,10 @@ h3{
     justify-content: space-around;
     padding: 60px;
 }
+.store-img-mobile{
+    display: none;
+}
+
 
 .store-img1{
     height: 420px;
@@ -658,27 +662,11 @@ h3{
 }
 
 .section-contact{
-    /* margin-top: 20px;
-    background-color: rgb(56, 162, 40);
-    grid-template-columns: 1fr 1fr;
-    padding: 10px; */
-    /* width: 600px;
-    height: 400px; */
-    /* display: grid;
-    gap: 12px; */
-    /* height: 440px; */
-    /* padding: 12px; */
-    /* display: grid; */
-    /* display: inline-block;
-    justify-content: center; */
-    /* margin-left: 680px; */
     width: 600px;
-    /* background-color: rgb(104, 19, 117); */
 }
 
 .section-contact form{
-    /* display: grid;
-    background-color: rgb(83, 72, 148); */
+    background-color: rgb(83, 72, 148); 
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -688,14 +676,7 @@ h3{
 .section-contact form label{
     color: rgb(0, 0, 0);
     font-size: 22px;
-    /* text-align: center; */
     font-family: 'Anton', sans-serif;
-}
-
-.label-con1{
-    /* grid-area: label1; */
-    
-    
 }
 
 input{
@@ -705,35 +686,7 @@ input{
     border: none;
 }
 
-.input-con1{
-    /* grid-area: input1; */
-    
-    
-    /* background-color: steelblue; */
-}
-
-.label-con2{
-    /* grid-area: label2; */
-}
-
-.input-con2{
-    /* grid-area: input2; */
-}
-
-.label-con3{
-    /* grid-area: label3; */
-}
-
-.input-con3{
-    /* grid-area: input3; */
-}
-
-.label-con4{
-    /* grid-area: label4; */
-}
-
 .input-con4{
-    /* grid-area: input4; */
     height: 80px;
 }
 
@@ -757,93 +710,40 @@ input{
     /* transform: scale(1.1); */
 }
 
-/* .header-responsive{
-    display: none;
-} */
-.header-responsive{
-    display: none;
-    background-color: yellow;
-}
-
-.main-responsive{
-    display: none;
-}
-
-.footer-responsive{
-    display: none;
-}
-
 @media (max-width:767px){
 
+/* HEADER RESPONSIVE */
+
 .header-skate{
-    display: none;
-}
-
-.header-responsive{
-    display: block;
-}
-
-.main-responsive{
-    display: block;
-}
-
-.footer-responsive{
-    display: block;
-}
-.desktop{
-    display: none;
-}
-
-.footer-inicio{
-    display: none;
-}
-
-/* RESPONSIVEE */
-
-.header-responsive{
-    background-color: black;
-    height: 340px;
-}
-
-.logo-responsive{
-    /* width: 100%; */
-    
-    width: 100%;
     display: flex;
-    justify-content: center;
-    /* background-color: tomato; */
+    flex-direction: column;
+    padding: 16px;
 }
-
 
 .logo-responsivee{
     width: 120px;
     height: 120px;
+    margin: 0;
+    /* background-color: burlywood; */
 }
 
 
 .nav-responsive{
     /* background-color: thistle; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    margin: 0;
 }
 
 .nav-responsive .ul-responsive{
     list-style: none;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 8px;
-    
 }
 
 .nav-responsive .ul-responsive .li-m .a-m{
     /* background-color: yellowgreen; */
-    display: flex;
-    justify-content: center;
     text-decoration: none;
     color: #fff;
-    font-family: 'Anton', sans-serif;
     font-size: 22px;
 
 }
@@ -865,19 +765,23 @@ input{
     margin-top: 4px;
 }
 
+.nikesb-inicio{
+    display: none;
+}
+
 .nikesb-mobile{
     /* background-color: violet; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 8vh;
     gap: 32px;
 }
 
-/* .nike-mo{
-    height: 200px;
-    width: 200px;
-} */
+.section-botones{
+    display: none;
+}
 
 .botones-mo{
     /* background-color: turquoise;
@@ -913,75 +817,105 @@ input{
 
 /* footer responsive */
 
-.footer-mobile{
-    background-color: rgb(0, 0, 0);
+.h3-face, .h3-insta, .h3-wsp{
+    display: none;
+}
+
+.footer-inicio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.derechos-footer{
+    /* background-color: yellow; */
+    /* width: 60vh; */
+    margin: 0;
+}
+
+.redes-footer{
+    /* background-color: turquoise; */
+    margin: 0;
+    gap: 20px;
+}
+
+.logo-footer{
+    /* background-color: teal; */
+    margin: 0;
+}
+
+/* MAIN TIENDA RESPONSIVE */
+
+.desktop{
+    /* background-color: rgb(91, 143, 143); */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    gap: 30px;
-    margin: 0;
 }
 
-.redes-mobile{
-    display: grid;
-    padding: 0 80px;
-    /* background-color: yellowgreen; */
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 12px;
-    gap: 32px;
-}
-
-.mo-foo{
-    /* background-color: violet; */
-    margin: 0;
-}
-
-.derechos-mo{
-    /* background-color: violet; */
-    font-size: 16px;
-    margin: 0;
-    margin-bottom: 12px;
-}
-
-.mobile-h2-main{
+.tiendas-vm{
+    /* background-color: rgb(17, 16, 41); */
+    align-self: center;
     display: flex;
-    justify-content: center;
-    /* background-color: yellowgreen; */
-    font-family: 'Anton', sans-serif;
-    font-size: 36px;
-    margin-top: 12px;
+    flex-direction: column;
 }
 
 .section-mobile{
-    /* background-color: teal; */
+    /* background-color: rgb(17, 16, 41); */
+    align-self: center;
     display: flex;
-    align-items: baseline;
-    margin-top: 16px;
-    gap: 8px;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
 }
 
-.section-mobile .ubi1-mo{
-    margin-left: 16px;
+.ubi-1{
+    /* background-color: yellow; */
+    align-self: center;
+    margin: 0;
+    height: 40px;
 }
 
-.store1-mobile{
+.tienda-h3{
+    font-size: 26px;
+    
+    align-self: center;
     /* background-color: violet; */
-    margin-top: 20px;
-    margin-bottom: 22px;
-    text-align: center;
 }
 
-.store1-mo{
-    width: 240px;
-    height: 240px;
+.horarios-tienda{
+    display: none;
+    
+}
+
+.li-tienda-mobile{
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+}
+
+.store-img-mobile{
+    align-self: center;
+    display: block;
     box-shadow: 0px 0px 8px 0px black;
 }
 
-
-
+.store-img1{
+    display: none;
 }
 
+.store-img2{
+    display: none;
+}
 
+.store-img{
+    height: 220px;
+    width: 220px;
+    
+}
 
+.img-stores{
+    padding: 2vh;
+}
 
+}
