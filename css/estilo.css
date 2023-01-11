@@ -434,6 +434,10 @@ h3{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* .sbs{
+    display: none;
+} */
+
 .comprar-snkr{
     /* background-color: rgb(33, 42, 103); */
     display: flex;
@@ -528,6 +532,17 @@ h3{
 }
 
                                                         /* SECCION SKATEBOARDING */
+
+.hambur-mobile{
+    /* background-color: rgb(212, 212, 212); */
+    display: none;
+    width: 8vh;
+    height: 8vh;
+}
+
+.nav-input{
+    display: none;
+}
 
 .h2-eventos{
     display: flex;
@@ -666,7 +681,7 @@ h3{
 }
 
 .section-contact form{
-    background-color: rgb(83, 72, 148); 
+    /* background-color: rgb(83, 72, 148);  */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -916,6 +931,125 @@ input{
 
 .img-stores{
     padding: 2vh;
+}
+
+.nike1-4, .nombre1-4, .precio1-4, 
+.comprar-snkr, .nike5-8, .nombre5-8,
+.precio5-8, .comprar-snkr4-8{
+    display: none;
+} 
+
+/* p{
+    font-size: 4vh;
+} */
+
+.h2-eventos{
+    font-size: 5vh;
+}
+
+.eventos{
+    /* box-shadow: 0px 0px 8px 0px rgb(34, 34, 41); */
+    margin-top: 20px;
+    /* border-radius: 26vh;
+    background-color: rgb(166, 166, 166); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.evento-1, .evento-2, .evento-3{
+    height: 280px;
+    width: 220px;
+    margin: 6vh 0;
+    
+}
+
+.evento-1:hover{
+    transition: 600ms;
+    transform: scale(1.1)
+}
+
+.evento-2:hover{
+    transition: 600ms;
+    transform: scale(1.1)
+}
+
+.evento-3x:hover{
+    transition: 600ms;
+    transform: scale(1.1)
+}
+
+
+
+.hambur-mobile{
+    display: block;
+    
+    /* background-color: yellowgreen; */
+}
+
+.ubi-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+    /* background-color: royalblue; */
+}
+
+.h3-sec{
+    
+    font-size: 4vh;
+}
+
+.telefono-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+    /* background-color: royalblue; */
+}
+
+.correo-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+    /* background-color: royalblue; */
+}
+
+.prueba2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.label-con1, .label-con2, .label-con3, .label-con4{
+    text-align: center;
+}
+
+.con-mo{
+    width: 54vh;
+    height: 10vh;
+    align-self: center;
+}
+
+.input-con4{
+    width: 54vh;
+    height: 16vh;
+}
+
+.input-con5{
+    margin: 0;
+    width: 34vh;
+    height: 10vh;
+    margin-top: 4vh;
+    align-self: center;
 }
 
 }
