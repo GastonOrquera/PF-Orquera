@@ -725,6 +725,9 @@ input{
     /* transform: scale(1.1); */
 }
 
+
+/* MEDIA PARA CELULAR */
+
 @media (max-width:767px){
 
 /* HEADER RESPONSIVE */
@@ -976,17 +979,9 @@ input{
     transform: scale(1.1)
 }
 
-.evento-3x:hover{
+.evento-3:hover{
     transition: 600ms;
     transform: scale(1.1)
-}
-
-
-
-.hambur-mobile{
-    display: block;
-    
-    /* background-color: yellowgreen; */
 }
 
 .ubi-contact{
@@ -1030,24 +1025,27 @@ input{
 }
 
 .label-con1, .label-con2, .label-con3, .label-con4{
-    text-align: center;
+    margin: 0;
+    /* background-color: rgb(17, 16, 41); */
+    align-self: center;
 }
 
 .con-mo{
-    width: 54vh;
+    /* background-color: rgb(17, 16, 41); */
+    width: 22em;
     height: 10vh;
     align-self: center;
 }
 
 .input-con4{
-    width: 54vh;
+    width: 22em;
     height: 16vh;
 }
 
 .input-con5{
     margin: 0;
-    width: 34vh;
-    height: 10vh;
+    width: 26vh;
+    height: 8vh;
     margin-top: 4vh;
     align-self: center;
 }
@@ -1056,6 +1054,55 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+}
+
+/* MEDIA PARA TABLET */
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+.logon{
+    height: 26vh;
+    width: 6em;
+    margin-left: 2em;
+}
+
+.nav-bar{
+    margin-left: 5vh;
+}
+
+.nav-bar ul{
+    gap: 5vh;
+}
+
+.div-prueba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-con1, .label-con2, .label-con3, .label-con4{
+    
+    /* background-color: rgb(17, 16, 41); */
+    align-self: center;
+}
+
+.h3-insta, .h3-face, .h3-wsp{
+    display: none;
+}
+
+.prueba2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 2em;
+}
+
+.logo-footer{
+    margin-right: 2em;
 }
 
 }
