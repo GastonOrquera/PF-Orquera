@@ -1,0 +1,452 @@
+/* MEDIA PARA CELULAR */
+
+@media (max-width:767px){
+
+    /* HEADER RESPONSIVE */
+    
+    .header-skate{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        padding: 16px;
+        .logo-responsivee{
+            width: 120px;
+            height: 120px;
+            margin: 0;
+            // background-color: burlywood;
+        }
+        .nav-responsive{
+            // background-color: thistle;
+            margin-right: 8em;
+            .ul-responsive{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .li-m .a-m{
+                    color: #fff;
+                    font-size: 22px;
+                }
+            }
+        }   
+    }
+    
+    .h1-mo{
+        display: flex;
+        justify-content: center;
+        font-size: 36px;
+    }
+    
+    .h2-mo{
+        font-size: 26px;
+    }
+    
+    .hr-mo{
+        margin: 0;
+        margin-top: 4px;
+    }
+    
+    .nikesb-inicio{
+        display: none;
+    }
+    
+    .nikesb-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 8vh;
+        gap: 32px;
+        .nike1, .nike2, 
+        .nike3, .nike4{
+        height: 16em;
+        width: 16em;
+        box-shadow: 0px 0px 8px 0px black;
+        transition: 400ms;
+        &:hover{
+            transform: scale(1.1);
+            border-radius: 1em;
+        }
+    }
+        .mobile-btn{
+            width: 120px;
+            height: 36px;
+            border-radius: 6px;
+            border: none;
+            &:hover{
+                background: rgb(0, 0, 0);
+                transition: 400ms;
+                box-shadow: 0px 0px 8px 0px black;
+            }
+            .ancla-mobile{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                &:hover{
+                    color: #fff;
+                    transition: 400ms;
+                }
+            }
+        }
+    }
+
+    .section-botones{
+        display: none;
+    }
+
+    /* footer responsive */
+    
+    .h3-face, .h3-insta, .h3-wsp{
+        display: none;
+    }
+    
+    .footer-inicio{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        .derechos-footer{
+            margin: 0;
+        }
+        .redes-footer{
+            margin: 0;
+            gap: 20px;
+        }
+        .logo-footer{
+            margin: 0;
+        }
+    }
+
+    /* MAIN TIENDA RESPONSIVE */
+    
+    .desktop{
+        display: flex;
+        flex-direction: column;
+        .tiendas-vm{
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            .ubi-1{
+                align-self: center;
+                margin: 0;
+                height: 40px;
+                
+            }
+        }
+    }
+
+    .tienda-h3{
+        font-size: 26px;
+        align-self: center;
+    }
+    
+    .section-mobile{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        .ubi-2{
+            align-self: center;
+            margin: 0;
+            height: 40px;
+            }
+    }
+
+    .horarios-tienda{
+        display: none;
+    }
+    
+    .li-tienda-mobile{
+        display: block;
+        font-family: $tipografia-principal;
+        font-size: 16px;
+    }
+    
+    .store-img-mobile{
+        align-self: center;
+        display: block;
+        box-shadow: 0px 0px 8px 0px black;
+        height: 16em;
+        width: 16em;
+    }
+    
+    h3{
+        font-family: $tipografia-principal;
+        font-size: 2em;
+    }
+
+    p{
+        font-family: $tipografia-secundaria;
+    }
+
+    .store-img1{
+        display: none;
+    }
+    
+    .store-img2{
+        display: none;
+    }
+    
+    .img-stores{
+        padding: 2vh;
+    }
+    
+    .nike1-4, .nombre1-4, .precio1-4, 
+    .comprar-snkr, .nike5-8, .nombre5-8,
+    .precio5-8, .comprar-snkr4-8{
+        display: none;
+    } 
+    
+    .h2-eventos{
+        font-size: 5vh;
+    }
+    
+    // MAIN SKATEBOARDING MOBILE
+
+    .eventos{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        .evento-1, .evento-2, .evento-3{
+            height: 280px;
+            width: 220px;
+            margin: 6vh 0;
+            &:hover{
+                transition: 600ms;
+                transform: scale(1.1)
+            }
+        }
+    }
+
+    .div-prueba{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .ubi-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3vh;
+    }
+}
+
+    .h3-sec{
+    font-size: 4vh;
+}
+    
+    .telefono-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+
+    .correo-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3vh;
+    }
+    
+    .prueba2{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vh;
+        .label-con1, .label-con2, .label-con3, .label-con4{
+            margin: 0;
+            align-self: center;
+        }
+        .con-mo{
+            width: 22em;
+            height: 10vh;
+            align-self: center;
+        }
+        .input-con4{
+            width: 22em;
+            height: 16vh;
+        }
+        
+        .input-con5{
+            margin: 0;
+            width: 26vh;
+            height: 8vh;
+            margin-top: 4vh;
+            align-self: center;
+        }
+    }
+}
+    
+    /* MEDIA PARA TABLET */
+    
+    @media (min-width: 768px) and (max-width: 1023px){
+    
+.header-skate{
+    .logon{
+        height: 26vh;
+        width: 6em;
+        margin-left: 2em;
+    }
+    .nav-bar{
+        margin-left: 3.4em;
+        .ul-responsive{
+            gap: 3vh;
+            .li-m{
+            // background-color: violet;
+            .a-m{
+                font-size: 1.8em;
+            }
+            }
+        }
+    }
+}
+
+    /* INICIO TABLET */
+    
+    .nikesb-inicio{
+        display: none;
+    }
+    
+    .section-botones{
+        display: none;
+    }
+    
+    .nikesb-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1/-1;
+        justify-content: center;
+        align-items: center;
+        gap: 6vh;
+        margin-top: 4em;
+        .nike1, .nike2, 
+        .nike3, .nike4{
+        height: 18em;
+        width: 18em;
+        box-shadow: 0px 0px 8px 0px black;
+        }
+        .mobile-btn{
+            height: 3em;
+            border-radius: 2vh;
+            a{
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+                font-family: $tipografia-principal;
+                font-size: 1.5em;
+                &:hover{
+                    color: rgb(51, 51, 51);
+                }
+            }
+        }
+    }
+
+    
+    
+    /* TIENDA TABLET */
+    
+    
+    .tiendas-vm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .ubi-1{
+            margin: 0;
+        } 
+    }
+
+    .li-tienda-mobile{
+        font-family: $tipografia-principal;
+        display: block;
+    }
+    
+    .store-img1, .store-img2{
+        display: none;
+    }
+    
+    .store-img-mobile{
+        display: block;
+        height: 22em;
+        width: 20em;
+    }
+    
+    .horarios-tienda{
+        display: none;
+    }
+    
+    .tiendas-vm-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        .ubi-2{
+            margin: 0;
+        } 
+    }
+
+    /* SNKR TABLET */
+    
+    .nike1-4, .nombre1-4, .precio1-4, 
+    .comprar-snkr, .nike5-8, .nombre5-8,
+    .precio5-8, .comprar-snkr4-8{
+        display: none;
+    } 
+    
+    .nikesb-mobile{
+        margin-top: 2em;
+        gap: 2em;
+        h3, p{
+            text-align: center;
+            font-family: $tipografia-principal;
+            font-size: 1.5em;
+        }
+    }
+    
+    /* SKATEBOARDING TABLET */
+    
+    .eventos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* CONTACTO TABLET */
+    
+    .div-prueba{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .label-con1, .label-con2, .label-con3, .label-con4{
+        align-self: center;
+    }
+    
+    .h3-insta, .h3-face, .h3-wsp{
+        display: none;
+    }
+    
+    .prueba2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 2em;
+    }
+    
+    .logo-footer{
+        margin-right: 2em;
+    }
+    
+    }
+    
+    

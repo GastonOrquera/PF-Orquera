@@ -1,0 +1,983 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(180, 180, 180);
+}
+
+.header-skate {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.header-skate .logon {
+  height: 160px;
+  width: 140px;
+  margin-left: 60px;
+}
+.header-skate .nav-bar {
+  margin-left: 28vh;
+}
+.header-skate .nav-bar ul {
+  display: flex;
+  gap: 8vh;
+  list-style: none;
+}
+.header-skate .nav-bar ul li:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+.header-skate .nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-family: "Anton", sans-serif;
+}
+.header-skate .nav-bar ul li a .nav-bar ul li a:hover {
+  color: rgb(212, 212, 212);
+}
+.header-skate .hr-header {
+  box-shadow: 0px 0px 8px 0px rgb(255, 255, 255);
+}
+
+.h1-cs {
+  display: flex;
+  justify-content: center;
+  font-size: 62px;
+  padding: 16px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+}
+
+.h2-index {
+  display: flex;
+  justify-content: center;
+  align-items: flex-;
+  font-size: 46px;
+  padding: 4px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+}
+
+.hr-inicio {
+  margin-top: 22px;
+  box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
+  margin-left: 42px;
+  margin-right: 42px;
+}
+
+/* ZAPATILLAS NIKESB */
+.nikesb-inicio {
+  display: flex;
+  justify-content: space-around;
+  padding: 66px 26px;
+}
+.nikesb-inicio img {
+  height: 260px;
+  width: 260px;
+}
+.nikesb-inicio img:hover {
+  border-radius: 6px;
+  transition: 400ms;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 8px 0px rgb(17, 16, 41);
+}
+
+.nikesb-mobile {
+  display: none;
+}
+
+.section-botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-botones button {
+  height: 36px;
+  width: 112px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 6px;
+  background-color: rgb(210, 210, 210);
+}
+.section-botones button:hover {
+  background-color: rgb(10, 10, 10);
+  border-radius: 8px;
+  transition: 600ms;
+  transform: scale(1.1);
+  height: 32px;
+  box-shadow: 0px 0px 6px 0px black;
+}
+.section-botones a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 6px;
+}
+.section-botones a:hover {
+  color: rgb(255, 255, 255);
+  transition: 200ms;
+}
+
+.ver-mas {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.a-vm {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(40, 41, 48);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.h3-vm {
+  font-size: 32px;
+  font-family: "Anton", sans-serif;
+}
+
+.a-vm:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.hr-vm {
+  background-color: yellow;
+  box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
+  margin-left: 62px;
+  margin-right: 62px;
+  margin-top: 42px;
+}
+
+.footer-inicio {
+  background-color: black;
+  height: 180px;
+  display: flex;
+  box-shadow: 0px 0px 40px 0px rgb(212, 212, 212);
+}
+.footer-inicio .derechos-footer {
+  color: rgb(69, 69, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  font-family: "Anton", sans-serif;
+}
+.footer-inicio .redes-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-left: 60px;
+}
+.footer-inicio .redes-footer .img-insta {
+  height: 32px;
+  width: 32px;
+}
+.footer-inicio .redes-footer h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.footer-inicio .redes-footer .h3-insta {
+  color: white;
+}
+.footer-inicio .redes-footer .img-face {
+  height: 32px;
+  width: 32px;
+}
+.footer-inicio .redes-footer .h3-face {
+  color: white;
+}
+.footer-inicio .redes-footer .img-wsp {
+  height: 32px;
+  width: 32px;
+}
+.footer-inicio .redes-footer .h3-wsp {
+  color: white;
+}
+
+.logo-footer {
+  align-self: center;
+  margin-left: 146px;
+  height: 78px;
+  width: 156px;
+  cursor: pointer;
+}
+
+.h2-tienda {
+  font-family: "Anton", sans-serif;
+  font-size: 46px;
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  letter-spacing: 2px;
+}
+
+.tiendas-vm {
+  display: inline-flex;
+  gap: 20px;
+  align-items: baseline;
+  padding: 20px;
+}
+.tiendas-vm .ubi-1 {
+  width: 30px;
+  height: 38px;
+  margin-left: 60px;
+}
+
+.tienda-h3 {
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+}
+
+.horarios-tienda {
+  display: flex;
+}
+.horarios-tienda .li-tienda {
+  font-size: 26px;
+  margin-left: 112px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.horarios-tienda .li-tienda2 {
+  font-size: 24px;
+  margin-left: 260px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.li-tienda-mobile {
+  display: none;
+}
+
+.tiendas-vm-2 {
+  display: inline-flex;
+  gap: 20px;
+  align-items: baseline;
+  padding: 20px;
+  margin-left: 280px;
+}
+.tiendas-vm-2 .ubi-2 {
+  width: 30px;
+  height: 38px;
+  margin-left: 60px;
+}
+
+.img-stores {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.store-img-mobile {
+  display: none;
+}
+
+.store-img1 {
+  height: 420px;
+  width: 420px;
+  box-shadow: 0px 0px 8px 0px black;
+  margin-right: 180px;
+}
+
+.store-img2 {
+  height: 420px;
+  width: 420px;
+  box-shadow: 0px 0px 8px 0px black;
+  margin-left: 60px;
+}
+
+.tienda-foo {
+  margin-top: 26px;
+}
+
+.h2-snkr {
+  font-family: "Anton", sans-serif;
+  font-size: 46px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nike1-4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  /* background-color: steelblue; */
+}
+
+.nike {
+  box-shadow: 0px 0px 6px 0px black;
+  height: 16em;
+  width: 16em;
+}
+
+.nombre1-4 {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.h3-snkrs {
+  font-size: 26px;
+  font-family: "Anton", sans-serif;
+}
+
+.precio1-4 {
+  /* background-color: rgb(104, 63, 164); */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
+}
+.precio1-4 .p-snkrs {
+  font-size: 22px;
+  margin-right: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.precio1-4 .p-snkrs4 {
+  font-size: 22px;
+  margin-right: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.comprar-snkr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12px;
+}
+.comprar-snkr button {
+  height: 36px;
+  width: 112px;
+  border: none;
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 6px;
+  background-color: rgb(210, 210, 210);
+  margin-right: 10px;
+}
+.comprar-snkr button:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 6px 0px black;
+}
+.comprar-snkr a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px;
+  color: black;
+}
+.comprar-snkr a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.nike5-8 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 36px;
+}
+
+.nombre5-8 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.precio5-8 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.comprar-snkr4-8 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.comprar-snkr4-8 button {
+  height: 36px;
+  width: 112px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 6px;
+  background-color: rgb(210, 210, 210);
+  margin-right: 10px;
+}
+
+.comprar-snkr4-8 button:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 6px 0px black;
+}
+
+.comprar-snkr4-8 button a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px;
+  color: black;
+}
+
+.comprar-snkr4-8 button a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.foo-snkr {
+  margin-top: 52px;
+}
+
+.h2-eventos {
+  display: flex;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-size: 46px;
+  margin-top: 12px;
+}
+
+.hr-skateboard {
+  margin-top: 12px;
+  margin-left: 60px;
+  margin-right: 60px;
+  box-shadow: 0px 0px 6px 0px black;
+  opacity: 42%;
+}
+
+.eventos {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 32px;
+  /* align-items: center; */
+}
+.eventos .evento-1 {
+  height: 526px;
+  width: 372px;
+  border-radius: 6px;
+  margin-top: 80px;
+  box-shadow: 0px 0px 8px 0px black;
+}
+.eventos .evento-2 {
+  height: 526px;
+  width: 372px;
+  border-radius: 6px;
+  margin-top: 56px;
+  box-shadow: 0px 0px 8px 0px black;
+}
+.eventos .evento-3 {
+  height: 526px;
+  width: 372px;
+  border-radius: 6px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 8px 0px black;
+}
+
+.foo-sktb {
+  margin-top: 80px;
+}
+
+.contacto-titulo {
+  display: flex;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-size: 46px;
+  margin-top: 12px;
+}
+
+.hr-contacto {
+  box-shadow: 0px 0px 4px 0px black;
+  margin-top: 10px;
+}
+
+.h3-contacto {
+  display: flex;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-size: 42px;
+  margin-top: 12px;
+  /* background-color: tomato; */
+}
+
+.div-prueba {
+  display: inline-flex;
+  flex-direction: column;
+  /* background-color: violet; */
+}
+.div-prueba .ubi-contact {
+  display: inline-flex;
+  align-items: baseline;
+  /* background-color: blueviolet; */
+  margin-left: 60px;
+  margin-top: 32px;
+  gap: 12px;
+}
+.div-prueba .ubi-contact .ubi-con {
+  width: 30px;
+  height: 38px;
+}
+
+.h3-sec {
+  font-family: "Anton", sans-serif;
+}
+
+.telefono-contact {
+  display: inline-flex;
+  align-items: baseline;
+  /* background-color: rgb(189, 32, 4); */
+  margin-left: 60px;
+  margin-top: 32px;
+  gap: 12px;
+}
+.telefono-contact .telefono-con {
+  width: 30px;
+  height: 38px;
+}
+
+.correo-contact {
+  display: inline-flex;
+  align-items: baseline;
+  margin-left: 60px;
+  margin-top: 32px;
+  gap: 12px;
+}
+.correo-contact .correo-con {
+  width: 42px;
+  height: 32px;
+}
+
+/* Formulario */
+.prueba2 {
+  display: inline-block;
+  margin-left: 290px;
+}
+
+.section-contact {
+  width: 600px;
+}
+.section-contact form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-contact form label {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: "Anton", sans-serif;
+}
+
+input {
+  height: 46px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+}
+
+.input-con4 {
+  height: 80px;
+}
+
+.input-con5 {
+  margin-top: 22px;
+  width: 200px;
+  height: 38px;
+  align-self: center;
+  border: 2px solid rgb(212, 212, 212);
+}
+.input-con5:hover {
+  background-color: rgb(212, 212, 212);
+  transition: 400ms;
+  color: rgb(42, 42, 42);
+  box-shadow: 0px 0px 2px 0px black;
+}
+
+/* MEDIA PARA CELULAR */
+@media (max-width: 767px) {
+  /* HEADER RESPONSIVE */
+  .header-skate {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .header-skate .logo-responsivee {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
+  .header-skate .nav-responsive {
+    margin-right: 8em;
+  }
+  .header-skate .nav-responsive .ul-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header-skate .nav-responsive .ul-responsive .li-m .a-m {
+    color: #fff;
+    font-size: 22px;
+  }
+  .h1-mo {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+  }
+  .h2-mo {
+    font-size: 26px;
+  }
+  .hr-mo {
+    margin: 0;
+    margin-top: 4px;
+  }
+  .nikesb-inicio {
+    display: none;
+  }
+  .nikesb-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    gap: 32px;
+  }
+  .nikesb-mobile .nike1, .nikesb-mobile .nike2,
+  .nikesb-mobile .nike3, .nikesb-mobile .nike4 {
+    height: 16em;
+    width: 16em;
+    box-shadow: 0px 0px 8px 0px black;
+    transition: 400ms;
+  }
+  .nikesb-mobile .nike1:hover, .nikesb-mobile .nike2:hover,
+  .nikesb-mobile .nike3:hover, .nikesb-mobile .nike4:hover {
+    transform: scale(1.1);
+    border-radius: 1em;
+  }
+  .nikesb-mobile .mobile-btn {
+    width: 120px;
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+  }
+  .nikesb-mobile .mobile-btn:hover {
+    background: rgb(0, 0, 0);
+    transition: 400ms;
+    box-shadow: 0px 0px 8px 0px black;
+  }
+  .nikesb-mobile .mobile-btn .ancla-mobile {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .nikesb-mobile .mobile-btn .ancla-mobile:hover {
+    color: #fff;
+    transition: 400ms;
+  }
+  .section-botones {
+    display: none;
+  }
+  /* footer responsive */
+  .h3-face, .h3-insta, .h3-wsp {
+    display: none;
+  }
+  .footer-inicio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer-inicio .derechos-footer {
+    margin: 0;
+  }
+  .footer-inicio .redes-footer {
+    margin: 0;
+    gap: 20px;
+  }
+  .footer-inicio .logo-footer {
+    margin: 0;
+  }
+  /* MAIN TIENDA RESPONSIVE */
+  .desktop {
+    display: flex;
+    flex-direction: column;
+  }
+  .desktop .tiendas-vm {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .desktop .tiendas-vm .ubi-1 {
+    align-self: center;
+    margin: 0;
+    height: 40px;
+  }
+  .tienda-h3 {
+    font-size: 26px;
+    align-self: center;
+  }
+  .section-mobile {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+  }
+  .section-mobile .ubi-2 {
+    align-self: center;
+    margin: 0;
+    height: 40px;
+  }
+  .horarios-tienda {
+    display: none;
+  }
+  .li-tienda-mobile {
+    display: block;
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+  }
+  .store-img-mobile {
+    align-self: center;
+    display: block;
+    box-shadow: 0px 0px 8px 0px black;
+    height: 16em;
+    width: 16em;
+  }
+  h3 {
+    font-family: "Anton", sans-serif;
+    font-size: 2em;
+  }
+  p {
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .store-img1 {
+    display: none;
+  }
+  .store-img2 {
+    display: none;
+  }
+  .img-stores {
+    padding: 2vh;
+  }
+  .nike1-4, .nombre1-4, .precio1-4,
+  .comprar-snkr, .nike5-8, .nombre5-8,
+  .precio5-8, .comprar-snkr4-8 {
+    display: none;
+  }
+  .h2-eventos {
+    font-size: 5vh;
+  }
+  .eventos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .eventos .evento-1, .eventos .evento-2, .eventos .evento-3 {
+    height: 280px;
+    width: 220px;
+    margin: 6vh 0;
+  }
+  .eventos .evento-1:hover, .eventos .evento-2:hover, .eventos .evento-3:hover {
+    transition: 600ms;
+    transform: scale(1.1);
+  }
+  .div-prueba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-prueba .ubi-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+  }
+  .h3-sec {
+    font-size: 4vh;
+  }
+  .telefono-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+  }
+  .correo-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+  }
+  .prueba2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .prueba2 .label-con1, .prueba2 .label-con2, .prueba2 .label-con3, .prueba2 .label-con4 {
+    margin: 0;
+    align-self: center;
+  }
+  .prueba2 .con-mo {
+    width: 22em;
+    height: 10vh;
+    align-self: center;
+  }
+  .prueba2 .input-con4 {
+    width: 22em;
+    height: 16vh;
+  }
+  .prueba2 .input-con5 {
+    margin: 0;
+    width: 26vh;
+    height: 8vh;
+    margin-top: 4vh;
+    align-self: center;
+  }
+}
+/* MEDIA PARA TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-skate .logon {
+    height: 26vh;
+    width: 6em;
+    margin-left: 2em;
+  }
+  .header-skate .nav-bar {
+    margin-left: 3.4em;
+  }
+  .header-skate .nav-bar .ul-responsive {
+    gap: 3vh;
+  }
+  .header-skate .nav-bar .ul-responsive .li-m .a-m {
+    font-size: 1.8em;
+  }
+  /* INICIO TABLET */
+  .nikesb-inicio {
+    display: none;
+  }
+  .section-botones {
+    display: none;
+  }
+  .nikesb-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1/-1;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+    margin-top: 4em;
+  }
+  .nikesb-mobile .nike1, .nikesb-mobile .nike2,
+  .nikesb-mobile .nike3, .nikesb-mobile .nike4 {
+    height: 18em;
+    width: 18em;
+    box-shadow: 0px 0px 8px 0px black;
+  }
+  .nikesb-mobile .mobile-btn {
+    height: 3em;
+    border-radius: 2vh;
+  }
+  .nikesb-mobile .mobile-btn a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    font-size: 1.5em;
+  }
+  .nikesb-mobile .mobile-btn a:hover {
+    color: rgb(51, 51, 51);
+  }
+  /* TIENDA TABLET */
+  .tiendas-vm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tiendas-vm .ubi-1 {
+    margin: 0;
+  }
+  .li-tienda-mobile {
+    font-family: "Anton", sans-serif;
+    display: block;
+  }
+  .store-img1, .store-img2 {
+    display: none;
+  }
+  .store-img-mobile {
+    display: block;
+    height: 22em;
+    width: 20em;
+  }
+  .horarios-tienda {
+    display: none;
+  }
+  .tiendas-vm-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .tiendas-vm-2 .ubi-2 {
+    margin: 0;
+  }
+  /* SNKR TABLET */
+  .nike1-4, .nombre1-4, .precio1-4,
+  .comprar-snkr, .nike5-8, .nombre5-8,
+  .precio5-8, .comprar-snkr4-8 {
+    display: none;
+  }
+  .nikesb-mobile {
+    margin-top: 2em;
+    gap: 2em;
+  }
+  .nikesb-mobile h3, .nikesb-mobile p {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 1.5em;
+  }
+  /* SKATEBOARDING TABLET */
+  .eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* CONTACTO TABLET */
+  .div-prueba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .label-con1, .label-con2, .label-con3, .label-con4 {
+    align-self: center;
+  }
+  .h3-insta, .h3-face, .h3-wsp {
+    display: none;
+  }
+  .prueba2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    margin-right: 2em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

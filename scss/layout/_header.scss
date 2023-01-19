@@ -1,0 +1,41 @@
+.header-skate{
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+    .logon{
+        height: 160px;
+        width: 140px;
+        margin-left: 60px;
+    }
+    .nav-bar{
+        margin-left: 28vh;
+        ul{
+            display: flex;
+            gap: 8vh;
+            list-style: none;
+        }
+    }
+    
+    .nav-bar ul li:hover{
+        transform: scale(1.1);
+        transition: 400ms;
+    }
+    
+    .nav-bar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 28px;
+        font-family: $tipografia-principal;
+        .nav-bar ul li a:hover{
+            color: rgb(212, 212, 212);
+        }
+    }
+    
+    .hr-header{
+        box-shadow: 0px 0px 8px 0px rgb(255, 255, 255);
+    }
+}
+
+
+

@@ -1,0 +1,66 @@
+.footer-inicio{
+    background-color: black;
+    height: 180px;
+    display: flex;
+    box-shadow: 0px 0px 40px 0px rgb(212, 212, 212);
+    .derechos-footer{
+        color: rgb(69, 69, 69);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+        font-family: $tipografia-principal;
+    }
+    .redes-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-left: 60px;
+        .img-insta{
+            height: 32px;
+            width: 32px;
+        }
+        
+        h3{
+            font-family: 'Anton', sans-serif;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        
+        .h3-insta{
+            color: white;
+        }
+        
+        .img-face{
+            height: 32px;
+            width: 32px;
+        }
+        
+        .h3-face{
+            color: white;
+        }
+        
+        .img-wsp{
+            height: 32px;
+            width: 32px;
+        }
+        
+        .h3-wsp{
+            color: white;
+        }
+        
+    }
+}
+
+.logo-footer{
+    align-self: center;
+    margin-left: 146px;
+    height: 78px;
+    width: 156px;
+    cursor: pointer;
+}
+
+
+
+

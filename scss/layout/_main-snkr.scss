@@ -1,0 +1,142 @@
+.h2-snkr{
+    font-family: $tipografia-principal;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nike1-4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* background-color: steelblue; */
+    
+}
+.nike{
+    box-shadow: 0px 0px 6px 0px black;
+    height: 16em;
+    width: 16em;
+}
+
+
+.nombre1-4{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;    
+}
+
+.h3-snkrs{
+    font-size: 26px;
+    font-family: $tipografia-principal
+}
+
+
+.precio1-4{
+    /* background-color: rgb(104, 63, 164); */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    .p-snkrs{
+        font-size: 22px;
+        margin-right: 24px;
+        font-family: $tipografia-secundaria;
+    }
+    .p-snkrs4{
+        font-size: 22px;
+        margin-right: 12px;
+        font-family: $tipografia-secundaria;
+    }
+}
+
+.comprar-snkr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    button{
+        height: 36px;
+        width: 112px;
+        border: none;
+        /* background-color: rgb(0, 0, 0); */
+        border-radius: 6px;
+        background-color: rgb(210, 210, 210);
+        margin-right: 10px;
+        &:hover{
+            background-color: rgb(0, 0, 0);
+            box-shadow: 0px 0px 6px 0px black;
+        }
+        }
+        a{
+            text-decoration: none;      
+            font-size: 18px;
+            padding: 6px;
+            color: black;
+            &:hover{
+                color: rgb(255, 255, 255);
+            }
+        }
+    
+}
+
+
+
+.nike5-8{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+}
+
+.nombre5-8{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.precio5-8{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    font-family: $tipografia-secundaria;
+}
+
+.comprar-snkr4-8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.comprar-snkr4-8 button{
+    height: 36px;
+    width: 112px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 6px;
+    background-color: rgb(210, 210, 210);
+    margin-right: 10px;
+}
+
+.comprar-snkr4-8 button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.comprar-snkr4-8 button a{
+    text-decoration: none;  
+    font-size: 18px;
+    padding: 6px;
+    color: black;
+}
+
+.comprar-snkr4-8 button a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.foo-snkr{
+    margin-top: 52px;
+}
