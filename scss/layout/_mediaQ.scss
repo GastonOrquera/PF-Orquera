@@ -19,10 +19,10 @@
             margin-right: 8.8em;
             .ul-responsive{
                 @include flex-Q;
-                .li-m .a-m{
-                    color: #fff;
-                    font-size: 22px;
-                }
+            }
+            .li-m .a-m{
+                color: #fff;
+                font-size: 22px;
             }
         }   
     }
