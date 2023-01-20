@@ -1,7 +1,7 @@
 .h2-tienda{
     font-family: $tipografia-principal;
     font-size: 46px;
-    display: flex;
+    @include flex;
     justify-content: center;
     margin-top: 26px;
     letter-spacing: 2px;
@@ -24,7 +24,7 @@
 }
 
 .horarios-tienda{
-    display: flex;
+    @include flex;
     .li-tienda{ 
         font-size: 26px;
         margin-left: 112px;
@@ -55,7 +55,7 @@
 }
 
 .img-stores{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     padding: 60px;
 }

@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(172, 172, 172);
 }
 
 .header-skate {
@@ -84,7 +84,7 @@ body {
   border-radius: 6px;
   transition: 400ms;
   transform: scale(1.1);
-  box-shadow: 0px 0px 8px 0px rgb(17, 16, 41);
+  box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
 }
 
 .nikesb-mobile {
@@ -162,7 +162,7 @@ body {
   background-color: black;
   height: 180px;
   display: flex;
-  box-shadow: 0px 0px 40px 0px rgb(212, 212, 212);
+  box-shadow: 0px 0px 12px 0px rgb(212, 212, 212);
 }
 .footer-inicio .derechos-footer {
   color: rgb(69, 69, 69);
@@ -311,17 +311,15 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
-  /* background-color: steelblue; */
 }
 
 .nike {
-  box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 8px 0px black;
   height: 16em;
   width: 16em;
 }
 
 .nombre1-4 {
-  /* background-color: blueviolet; */
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
@@ -333,7 +331,6 @@ body {
 }
 
 .precio1-4 {
-  /* background-color: rgb(104, 63, 164); */
   display: flex;
   justify-content: space-around;
   padding-top: 12px;
@@ -359,7 +356,6 @@ body {
   height: 36px;
   width: 112px;
   border: none;
-  /* background-color: rgb(0, 0, 0); */
   border-radius: 6px;
   background-color: rgb(210, 210, 210);
   margin-right: 10px;
@@ -411,7 +407,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background-color: rgb(0, 0, 0); */
   border-radius: 6px;
   background-color: rgb(210, 210, 210);
   margin-right: 10px;
@@ -449,7 +444,7 @@ body {
   margin-top: 12px;
   margin-left: 60px;
   margin-right: 60px;
-  box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 8px 0px black;
   opacity: 42%;
 }
 
@@ -457,7 +452,6 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 0px 32px;
-  /* align-items: center; */
 }
 .eventos .evento-1 {
   height: 526px;
@@ -494,8 +488,9 @@ body {
 }
 
 .hr-contacto {
-  box-shadow: 0px 0px 4px 0px black;
+  box-shadow: 0px 0px 8px 0px black;
   margin-top: 10px;
+  opacity: 50%;
 }
 
 .h3-contacto {
@@ -504,18 +499,15 @@ body {
   font-family: "Anton", sans-serif;
   font-size: 42px;
   margin-top: 12px;
-  /* background-color: tomato; */
 }
 
 .div-prueba {
   display: inline-flex;
   flex-direction: column;
-  /* background-color: violet; */
 }
 .div-prueba .ubi-contact {
   display: inline-flex;
   align-items: baseline;
-  /* background-color: blueviolet; */
   margin-left: 60px;
   margin-top: 32px;
   gap: 12px;
@@ -527,12 +519,12 @@ body {
 
 .h3-sec {
   font-family: "Anton", sans-serif;
+  font-size: 1.6em;
 }
 
 .telefono-contact {
   display: inline-flex;
   align-items: baseline;
-  /* background-color: rgb(189, 32, 4); */
   margin-left: 60px;
   margin-top: 32px;
   gap: 12px;
@@ -615,7 +607,7 @@ input {
     margin: 0;
   }
   .header-skate .nav-responsive {
-    margin-right: 8em;
+    margin-right: 8.8em;
   }
   .header-skate .nav-responsive .ul-responsive {
     display: flex;
@@ -644,8 +636,8 @@ input {
   }
   .nikesb-mobile {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-top: 8vh;
     gap: 32px;
@@ -724,11 +716,11 @@ input {
     align-self: center;
   }
   .section-mobile {
-    align-self: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin: 0;
-    justify-content: center;
   }
   .section-mobile .ubi-2 {
     align-self: center;
@@ -777,9 +769,9 @@ input {
   .eventos {
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 8px;
   }
   .eventos .evento-1, .eventos .evento-2, .eventos .evento-3 {
@@ -798,9 +790,9 @@ input {
   }
   .div-prueba .ubi-contact {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 3vh;
   }
   .h3-sec {
@@ -808,16 +800,16 @@ input {
   }
   .telefono-contact {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 3vh;
   }
   .correo-contact {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 3vh;
   }
   .prueba2 {
@@ -902,9 +894,9 @@ input {
   /* TIENDA TABLET */
   .tiendas-vm {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .tiendas-vm .ubi-1 {
     margin: 0;
@@ -926,9 +918,9 @@ input {
   }
   .tiendas-vm-2 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 0;
   }
   .tiendas-vm-2 .ubi-2 {

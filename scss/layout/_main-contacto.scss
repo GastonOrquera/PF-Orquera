@@ -1,5 +1,5 @@
 .contacto-titulo{
-    display: flex;
+    @include flex;
     justify-content: center;
     font-family: $tipografia-principal;
     font-size: 46px;
@@ -7,46 +7,43 @@
 }
 
 .hr-contacto{
-    box-shadow: 0px 0px 4px 0px black;
+    box-shadow: $shadow-2;
     margin-top: 10px;
+    opacity: 50%;
 }
 
 .h3-contacto{
-    display: flex;
+    @include flex;
     justify-content: center;
     font-family: $tipografia-principal;
     font-size: 42px;
     margin-top: 12px;
-    /* background-color: tomato; */
 }
 
 .div-prueba{
     display: inline-flex;
     flex-direction: column;
-    /* background-color: violet; */
     .ubi-contact{
         display: inline-flex;
         align-items: baseline;
-        /* background-color: blueviolet; */
         margin-left: 60px;
         margin-top: 32px;
         gap: 12px;
         .ubi-con{
             width: 30px;
             height: 38px;
-            
         }
     }
 }
 
 .h3-sec{
     font-family: $tipografia-principal;
+    font-size: 1.6em;
 }
 
 .telefono-contact{
     display: inline-flex;
     align-items: baseline;
-    /* background-color: rgb(189, 32, 4); */
     margin-left: 60px;
     margin-top: 32px;
     gap: 12px;
@@ -82,7 +79,7 @@
 .section-contact{
     width: 600px;
     form{
-        display: flex;
+        @include flex;
         justify-content: center;
         flex-direction: column;
         gap: 8px;

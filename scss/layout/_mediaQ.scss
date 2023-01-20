@@ -7,7 +7,6 @@
     .header-skate{
         display: flex;
         flex-direction: column;
-        // align-items: center;
         padding: 16px;
         .logo-responsivee{
             width: 120px;
@@ -17,12 +16,9 @@
         }
         .nav-responsive{
             // background-color: thistle;
-            margin-right: 8em;
+            margin-right: 8.8em;
             .ul-responsive{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
+                @include flex-Q;
                 .li-m .a-m{
                     color: #fff;
                     font-size: 22px;
@@ -51,10 +47,7 @@
     }
     
     .nikesb-mobile{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flex-Q;
         margin-top: 8vh;
         gap: 32px;
         .nike1, .nike2, 
@@ -140,11 +133,8 @@
     }
     
     .section-mobile{
-        align-self: center;
-        display: flex;
-        flex-direction: column;
+        @include flex-Q;
         margin: 0;
-        justify-content: center;
         .ubi-2{
             align-self: center;
             margin: 0;
@@ -205,10 +195,7 @@
 
     .eventos{
         margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex-Q;
         gap: 8px;
         .evento-1, .evento-2, .evento-3{
             height: 280px;
@@ -226,10 +213,7 @@
         justify-content: center;
         align-items: center;
     .ubi-contact{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex-Q;
         margin: 3vh;
     }
 }
@@ -239,18 +223,12 @@
 }
     
     .telefono-contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        @include flex-Q;
     margin: 3vh;
 }
 
     .correo-contact{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex-Q;
         margin: 3vh;
     }
     
@@ -353,10 +331,7 @@
     
     
     .tiendas-vm{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex-Q;
         .ubi-1{
             margin: 0;
         } 
@@ -382,10 +357,7 @@
     }
     
     .tiendas-vm-2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex-Q;
         margin: 0;
         .ubi-2{
             margin: 0;

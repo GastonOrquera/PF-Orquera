@@ -1,28 +1,25 @@
 .h2-snkr{
     font-family: $tipografia-principal;
     font-size: 46px;
-    display: flex;
+    @include flex;
     justify-content: center;
     margin-top: 20px;
 }
 
 .nike1-4{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     margin-top: 40px;
-    /* background-color: steelblue; */
-    
 }
 .nike{
-    box-shadow: 0px 0px 6px 0px black;
+    box-shadow: $shadow-2;
     height: 16em;
     width: 16em;
 }
 
 
 .nombre1-4{
-    /* background-color: blueviolet; */
-    display: flex;
+    @include flex;
     justify-content: space-around;
     padding-top: 20px;    
 }
@@ -32,10 +29,8 @@
     font-family: $tipografia-principal
 }
 
-
 .precio1-4{
-    /* background-color: rgb(104, 63, 164); */
-    display: flex;
+    @include flex;
     justify-content: space-around;
     padding-top: 12px;
     .p-snkrs{
@@ -59,7 +54,6 @@
         height: 36px;
         width: 112px;
         border: none;
-        /* background-color: rgb(0, 0, 0); */
         border-radius: 6px;
         background-color: rgb(210, 210, 210);
         margin-right: 10px;
@@ -77,32 +71,29 @@
                 color: rgb(255, 255, 255);
             }
         }
-    
 }
 
-
-
 .nike5-8{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     margin-top: 36px;
 }
 
 .nombre5-8{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     padding-top: 20px;
 }
 
 .precio5-8{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     padding-top: 12px;
     font-family: $tipografia-secundaria;
 }
 
 .comprar-snkr4-8{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 12px;
@@ -112,10 +103,7 @@
     height: 36px;
     width: 112px;
     border: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: rgb(0, 0, 0); */
+    @include button;
     border-radius: 6px;
     background-color: rgb(210, 210, 210);
     margin-right: 10px;

@@ -1,6 +1,6 @@
 .header-skate{
     background-color: black;
-    display: flex;
+    @include flex;
     align-items: center;
 
     .logon{
@@ -11,7 +11,7 @@
     .nav-bar{
         margin-left: 28vh;
         ul{
-            display: flex;
+            @include flex;
             gap: 8vh;
             list-style: none;
         }

@@ -1,0 +1,22 @@
+@mixin flex{
+    display: flex;
+}
+
+@mixin flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin flex-Q{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

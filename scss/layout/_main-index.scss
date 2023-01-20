@@ -19,7 +19,7 @@
 
 .hr-inicio{
     margin-top: 22px;
-    box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
+    box-shadow: $shadow;
     margin-left: 42px;
     margin-right: 42px;
 }
@@ -37,7 +37,7 @@
     border-radius: 6px;
     transition: 400ms;
     transform: scale(1.1);
-    box-shadow: 0px 0px 8px 0px rgb(17, 16, 41);
+    box-shadow: $shadow;
 }
 }
 }
@@ -47,16 +47,12 @@
 }
 
 .section-botones{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include button;
     button{
         height: 36px;
         width: 112px;
         border: none;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include button;
         border-radius: 6px;
         background-color: rgb(210, 210, 210);
         &:hover{
@@ -108,7 +104,7 @@
 
 .hr-vm{
     background-color: yellow;
-    box-shadow: 0px 0px 8px 0px rgb(1, 0, 28);
+    box-shadow: $shadow;
     margin-left: 62px;
     margin-right: 62px;
     margin-top: 42px;
