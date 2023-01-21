@@ -607,7 +607,8 @@ input {
     margin: 0;
   }
   .header-skate .nav-responsive {
-    margin-right: 10em;
+    margin: 0;
+    width: 100%;
   }
   .header-skate .nav-responsive .ul-responsive {
     display: flex;

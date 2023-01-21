@@ -15,8 +15,8 @@
             // background-color: burlywood;
         }
         .nav-responsive{
-            // background-color: thistle;
-            margin-right: 10em;
+            margin: 0;
+            width: 100%;
             .ul-responsive{
                 @include flex-Q;
                 .li-m .a-m{
