@@ -493,7 +493,6 @@
     // CONTACTOS SECCION
 
     .div-prueba{
-        background-color: brown;
         @include flex;
         .ubi-contact, .telefono-contact,
         .correo-contact{
@@ -516,7 +515,6 @@
 
         @media (min-width: 1149px) and (max-width: 1272px){
             .div-prueba{
-                background-color: brown;
                 @include flex;
                 .ubi-contact, .telefono-contact,
                 .correo-contact{

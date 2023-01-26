@@ -1012,7 +1012,6 @@ input {
     width: 18.8em;
   }
   .div-prueba {
-    background-color: brown;
     display: flex;
   }
   .div-prueba .ubi-contact, .div-prueba .telefono-contact,
@@ -1029,7 +1028,6 @@ input {
 }
 @media (min-width: 1149px) and (max-width: 1272px) {
   .div-prueba {
-    background-color: brown;
     display: flex;
   }
   .div-prueba .ubi-contact, .div-prueba .telefono-contact,
