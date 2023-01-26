@@ -972,5 +972,70 @@ input {
     margin-right: 2em;
   }
 }
+/* MEDIA 1024*/
+@media (min-width: 1024px) and (max-width: 1148px) {
+  .nikesb-inicio {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .nikesb-inicio .nike1, .nikesb-inicio .nike2,
+  .nikesb-inicio .nike3, .nikesb-inicio .nike4 {
+    height: 14em;
+    width: 14em;
+  }
+  .tiendas-vm-2 {
+    margin: 0;
+  }
+  .horarios-tienda .li-tienda, .horarios-tienda .li-tienda2 {
+    font-size: 1.2em;
+    margin: 0;
+    margin-left: 4.6em;
+    margin-top: 1em;
+  }
+  .img-stores .store-img1, .img-stores .store-img2 {
+    margin: 0;
+  }
+  .nike1-4 .nike {
+    height: 14em;
+    width: 14em;
+  }
+  .nike5-8 .nike {
+    height: 14em;
+    width: 14em;
+  }
+  .precio5-8 .p-snkrs, .precio5-8 .p-snkrs4 {
+    font-size: 22px;
+  }
+  .eventos .evento-1, .eventos .evento-2,
+  .eventos .evento-3 {
+    height: 18.8em;
+    width: 18.8em;
+  }
+  .div-prueba {
+    background-color: brown;
+    display: flex;
+  }
+  .div-prueba .ubi-contact, .div-prueba .telefono-contact,
+  .div-prueba .correo-contact {
+    align-self: center;
+  }
+  .h3-insta, .h3-face,
+  .h3-wsp {
+    display: none;
+  }
+  .logo-footer {
+    margin-left: 12em;
+  }
+}
+@media (min-width: 1149px) and (max-width: 1272px) {
+  .div-prueba {
+    background-color: brown;
+    display: flex;
+  }
+  .div-prueba .ubi-contact, .div-prueba .telefono-contact,
+  .div-prueba .correo-contact {
+    align-self: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

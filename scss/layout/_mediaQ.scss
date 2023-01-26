@@ -421,4 +421,106 @@
     
     }
     
-    
+        /* MEDIA 1024*/
+
+        @media (min-width: 1024px) and (max-width: 1148px){
+        // SECCION INICIO
+            .nikesb-inicio{ 
+                margin-top: 2em;
+                margin-bottom: 1em;
+            .nike1, .nike2,
+            .nike3, .nike4{
+                height: 14em;
+                width: 14em;
+            }
+        }
+            // SECCION TIENDA
+
+            .tiendas-vm-2{
+                margin: 0;
+            }
+
+            .horarios-tienda{
+                .li-tienda, .li-tienda2{
+                    font-size: 1.2em;
+                    margin: 0;
+                    margin-left: 4.6em;
+                    margin-top: 1em;
+                }
+                
+                
+            }
+
+        .img-stores{
+            .store-img1, .store-img2{
+                margin: 0;
+            }
+        }
+
+
+// SNKR SECCION 
+
+    .nike1-4{
+        .nike{
+        height: 14em;
+        width: 14em;
+        }
+    }
+
+    .nike5-8{
+        .nike{
+        height: 14em;
+        width: 14em;
+        }
+    }
+
+    .precio5-8{
+        .p-snkrs, .p-snkrs4{
+            font-size: 22px;
+        }
+    }
+
+    // SKATEBOARDING SECCION
+
+    .eventos{
+        .evento-1, .evento-2,
+        .evento-3{
+            height: 18.8em;
+            width: 18.8em;
+        }
+    }
+
+    // CONTACTOS SECCION
+
+    .div-prueba{
+        background-color: brown;
+        @include flex;
+        .ubi-contact, .telefono-contact,
+        .correo-contact{
+            align-self: center;
+        }
+    }
+
+            // FOOTER 
+            .h3-insta, .h3-face,
+            .h3-wsp{
+                display: none;
+            }
+
+            .logo-footer{
+                margin-left: 12em;
+            }
+
+        }
+
+
+        @media (min-width: 1149px) and (max-width: 1272px){
+            .div-prueba{
+                background-color: brown;
+                @include flex;
+                .ubi-contact, .telefono-contact,
+                .correo-contact{
+                    align-self: center;
+                }
+            }
+        }
